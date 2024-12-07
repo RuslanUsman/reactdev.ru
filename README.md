@@ -1,33 +1,8 @@
-# Справочник
+# React + Vite
 
-Для разметки контента используется markdown, собирается сайт движком MKDocs.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Участие
+Currently, two official plugins are available:
 
-Чтобы исправить ошибку или добавить что-то новое в этот репозиторий, вам нужно открыть пулл-реквест на Гитхабе.
-Кроме того, на каждой странице сайта справа от заголовка есть иконка редактирования (карандаш).
-
-## Сборка справочника
-
-Для сборки справочника нужно [установить MKDocs](https://www.mkdocs.org/#installation),
-[расширения PyMdown](https://facelessuser.github.io/pymdown-extensions/installation/) и тему [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/):
-
-```
-pip3 install -r ./requirements.txt
-```
-
-Сборка проекта:
-
-```
-mkdocs build
-```
-
-Режим разработчика:
-
-```
-mkdocs serve --dirtyreload
-```
-
-## Публикация
-
-Все одобренные пулл-реквесты будут автоматически опубликованы на [сайте справочника](https://reactdev.ru/)
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
